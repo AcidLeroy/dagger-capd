@@ -20,7 +20,6 @@ E0812 20:24:04.098196       1 cluster_accessor.go:262] "Connect failed" err="err
 E0812 20:24:39.105088       1 cluster_accessor.go:262] "Connect failed" err="error creating HTTP client and mapper: cluster is not reachable: Get \"https://172.18.0.2:6443/?timeout=5s\": context deadline exceeded" controller="clustercache" controllerGroup="cluster.x-k8s.io" controllerKind="Cluster" Cluster="test-cluster/test-cluster" namespace="test-cluster" name="test-cluster" reconcileID="1c31a96b-88ac-4155-8455-90baafb0df16"
 ``` 
 
-`kubeclt logs -n capd-system 
 
 ## Problem 
 Current, the networking is broken between the k3s and CAPD workload cluster. This is the ongoing issue that needs to be solved. 
