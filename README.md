@@ -22,4 +22,4 @@ E0812 20:24:39.105088       1 cluster_accessor.go:262] "Connect failed" err="err
 
 
 ## Problem 
-Current, the networking is broken between the k3s and CAPD workload cluster. This is the ongoing issue that needs to be solved. 
+Currently, the networking is broken between the k3s and CAPD workload cluster. This is the ongoing issue that needs to be solved. 
